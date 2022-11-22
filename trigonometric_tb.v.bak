@@ -1,0 +1,8 @@
+`timescale 1ns/1ns
+module trigonometric_tb();
+reg
+
+trigonometric tr(.degree, clk, value, cos);
+
+
+endmodule
